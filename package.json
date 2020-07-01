@@ -1,17 +1,19 @@
 {
-  "name": "formsey-react",
-  "version": "0.1.0",
+  "name": "formsey-react-sample",
+  "version": "0.2.109",
   "private": true,
   "dependencies": {
-    "@formsey/core": "0.2.109",
-    "@formsey/fields-compound": "0.2.109",
-    "@formsey/fields-native": "0.2.109",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "@formsey/core": "0.2.110",
+    "@formsey/fields-native": "0.2.110",
+    "@formsey/react": "0.0.3",
+    "resize-observer-polyfill": "1.5.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "skatejs-react-integration": "2.0.6"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
-import { FormseyForm } from './FormseyForm';
+import '@formsey/core';
+import '@formsey/fields-native';
+import { FormseyForm } from '@formsey/react';
 
 
 function App() {
@@ -11,7 +13,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FormseyForm onChangeY={changeHandler}></FormseyForm>
+        <FormseyForm onChange={changeHandler}></FormseyForm>
       </header>
     </div>
   );
