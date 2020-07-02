@@ -1162,7 +1162,7 @@
     "@floreysoft/utils" "^0.3.179"
     "@formsey/core" "^0.2.110"
 
-"@formsey/react@0.0.3":
+"@formsey/react@^0.0.3":
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/@formsey/react/-/react-0.0.3.tgz#80073d0a4fbe8215112d228ae99d8758071f0230"
   integrity sha512-eIUfDq7+wTUAErC8b5ZK29Xe9Rgkqn7HMobJ1e+jZaWE/jnwitoMVl1JRhcw5uA1l6jfzq2md4t0GN0CPH9zzw==
