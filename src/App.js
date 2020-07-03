@@ -3,7 +3,6 @@ import './App.css';
 import { FormseyForm } from '@formsey/react';
 import '@formsey/core';
 import '@formsey/fields-native';
-import '@formsey/fields-native-extended';
 import '@formsey/fields-compound';
 import '@formsey/fields-material';
 import '@formsey/fields-vaadin';
