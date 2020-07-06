@@ -21,7 +21,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "link": "yarn link @formsey/core @formsey/fields-native @formsey/fields-compound @formsey/fields-material @formsey/fields-vaadin @formsey/react",
+    "unlink": "yarn unlink @formsey/core @formsey/fields-native @formsey/fields-compound @formsey/fields-material @formsey/fields-vaadin @formsey/react"
   },
   "eslintConfig": {
     "extends": "react-app"
