@@ -1140,27 +1140,26 @@
   resolved "https://registry.yarnpkg.com/@floreysoft/utils/-/utils-0.3.203.tgz#4b3b61bfc3bb398c8da08f6852181cf620b902ca"
   integrity sha512-sFxyHiaJTTSpnfT3tVrYy8HPk4wuXteEu0ntj8TadETluaEG84iG0Nqco3j02SL9h2BtJxQmrKqvOaUd0RNonA==
 
-"@formsey/core@^0.2.112", "@formsey/core@^0.2.113", "@formsey/core@^0.2.120":
-  version "0.2.120"
-  resolved "https://registry.yarnpkg.com/@formsey/core/-/core-0.2.120.tgz#fdb4853db652117bbc1c8a91509e8442afce110a"
-  integrity sha512-GnF7rsWAflNs0UfNzBkX2xmGF6NjJmfWwMiGZQPlfHzdnCTlrjcKGTi+hsCF4tz9vtD9/hgNAPCLAQO3I9mPmg==
+"@formsey/core@^0.2.123", "@formsey/core@^0.2.125":
+  version "0.2.125"
+  resolved "https://registry.yarnpkg.com/@formsey/core/-/core-0.2.125.tgz#941107b0d583cfad93645344b875aac70909f747"
+  integrity sha512-nVhMB6bLPleOuHvlLH7BXUxiCBY4HiIDnDjz14JB9WIBkMvYNnZwoDT+dwnICBIR84wWx4pCI1Ez3IuI4rXSOw==
   dependencies:
     lit-element "^2.3.0"
 
-"@formsey/fields-compound@^0.2.112", "@formsey/fields-compound@^0.2.113", "@formsey/fields-compound@^0.2.120":
-  version "0.2.120"
-  resolved "https://registry.yarnpkg.com/@formsey/fields-compound/-/fields-compound-0.2.120.tgz#d4efee9725ffedd87f71b6ab464d13c0844c9987"
-  integrity sha512-y//iL1I0/9rwGW/QToo1Nz46oVSm3lZ4loSp9odcMHTbRHjuS0+UZYzqw9tctX1WR1I/14bpuiKkorDL5go5gA==
+"@formsey/fields-compound@^0.2.123":
+  version "0.2.125"
+  resolved "https://registry.yarnpkg.com/@formsey/fields-compound/-/fields-compound-0.2.125.tgz#17c3a7bfec0f6e3f495313c1a923eed64154d9bf"
+  integrity sha512-KCJMUQd5SL/nJIcawUmePL0YrUW8d80W++Ci+NImPWSV2cfrycxhsS35ilVEXhFCC7C4YI38ozMbhP94SHlcKA==
   dependencies:
-    "@formsey/core" "^0.2.120"
+    "@formsey/core" "^0.2.125"
     lit-element "^2.1.0"
 
-"@formsey/fields-material@^0.2.112", "@formsey/fields-material@^0.2.113":
-  version "0.2.120"
-  resolved "https://registry.yarnpkg.com/@formsey/fields-material/-/fields-material-0.2.120.tgz#7b8e0b6b35dda1547cb304f8968bbbf3d468c30e"
-  integrity sha512-kVfN1GKrPumlD9vFACa+F2qKw7/Vv7uBBgUoKZZSesByE95l++R/A/EkDdO0+IhYIPMlqDqCOYk12QFKl80ZxA==
+"@formsey/fields-material@^0.2.123":
+  version "0.2.126"
+  resolved "https://registry.yarnpkg.com/@formsey/fields-material/-/fields-material-0.2.126.tgz#5bc640ed6601f8f78bf3915ec4835cb0ba0c6ad9"
+  integrity sha512-HHx1nggI34FuEFNtKdBqq4fgPIGFOKgLhGGvBmyqJVXXF98q3XOD5Ro26exONcn4JWY3yHtXI5/vY5823wgUag==
   dependencies:
-    "@formsey/fields-native" "^0.2.120"
     "@material/mwc-checkbox" "^0.14.1"
     "@material/mwc-formfield" "^0.14.1"
     "@material/mwc-radio" "^0.14.1"
@@ -1169,36 +1168,22 @@
     "@material/mwc-textfield" "^0.14.1"
     lit-element "^2.3.0"
 
-"@formsey/fields-native-extended@^0.2.112":
-  version "0.2.112"
-  resolved "https://registry.yarnpkg.com/@formsey/fields-native-extended/-/fields-native-extended-0.2.112.tgz#87098b075163cdb784c81c970645a3ebe7befa92"
-  integrity sha512-w9UNmE19yRMYVlxTL1HfUaGrjurQS9qk7GNdd9nfgWDIgxyw+SQ2UvJzV7W9G4lPMTKVPPx3x4uSqwGHF1ehZw==
-  dependencies:
-    "@floreysoft/ace" ">0.3.0"
-    "@formsey/fields-native" "^0.2.112"
-    "@ts-stack/markdown" ">0"
-    highlight.js "^10.1.1"
-    signature_pad "^3.0.0-beta.3"
-
-"@formsey/fields-native@^0.2.112", "@formsey/fields-native@^0.2.113", "@formsey/fields-native@^0.2.120":
-  version "0.2.120"
-  resolved "https://registry.yarnpkg.com/@formsey/fields-native/-/fields-native-0.2.120.tgz#ce7f14a964bc0ba935792553220e9f5516c0682d"
-  integrity sha512-XhWmoGVj2oEDZxxAHBBsN1iyQ04UxB2aytxYO0rFsrWe9b9ARDOAqWItoOKS/J5VSUy/YGMKvSqYnyNlex6Lkw==
+"@formsey/fields-native@^0.2.123":
+  version "0.2.126"
+  resolved "https://registry.yarnpkg.com/@formsey/fields-native/-/fields-native-0.2.126.tgz#45d5ecbad7788a1bf42ba8c0e273114209b13f2a"
+  integrity sha512-2omcrrwqX6jQkjfcFz5XdCyfsRIC6upUy+O3r2FlAr1yS3eC9wyV6RHLQA0zQoDtAU2K1Tjp1jup6nFlRWhTxA==
   dependencies:
     "@floreysoft/ace" ">0.3.0"
     "@floreysoft/utils" "^0.3.179"
-    "@formsey/core" "^0.2.120"
     "@ts-stack/markdown" ">0"
     highlight.js "^10.1.1"
     signature_pad "^3.0.0-beta.3"
 
-"@formsey/fields-vaadin@^0.2.112", "@formsey/fields-vaadin@^0.2.113":
-  version "0.2.120"
-  resolved "https://registry.yarnpkg.com/@formsey/fields-vaadin/-/fields-vaadin-0.2.120.tgz#ea9d38217bb50e019b153d2b352ce930312e074e"
-  integrity sha512-KTmNcFSevb6pgdJhxwWUX4rDcRJC0goSklZIaQjVmEugx8OsF6GGOHgu4DVvkr26t6vDaB69wr3COozOUNJXVg==
+"@formsey/fields-vaadin@^0.2.123":
+  version "0.2.126"
+  resolved "https://registry.yarnpkg.com/@formsey/fields-vaadin/-/fields-vaadin-0.2.126.tgz#59952de8ced27cc996d7f44a9ad058b914c7450c"
+  integrity sha512-sCqGGM29QLhfdOzxbgMhRDP/S70BWKc1FPtz1NjYEKV/jThBYjr9qJqlWK2zLzyIqasr9OeECNhCm3PLJOJ5BQ==
   dependencies:
-    "@formsey/core" "^0.2.120"
-    "@formsey/fields-compound" "^0.2.120"
     "@vaadin/vaadin-checkbox" "^2.2.12"
     "@vaadin/vaadin-combo-box" "^5.0.11"
     "@vaadin/vaadin-date-picker" "^4.0.8"
@@ -1208,17 +1193,11 @@
     "@vaadin/vaadin-text-field" "^2.6.0"
     "@vaadin/vaadin-upload" "^4.2.1"
 
-"@formsey/react@^0.0.5":
-  version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@formsey/react/-/react-0.0.5.tgz#b39d94245827665dfba6f073695fc5ea3820b0dd"
-  integrity sha512-FB1Wq9BGcEEV6i+cYT/44TadJuhdUJQh9kdEIhEknOXBX3o/nCfWvqPWcRFxMu+8kzzHqG4sBecw85JrQLxdRA==
+"@formsey/react@^0.2.123":
+  version "0.2.126"
+  resolved "https://registry.yarnpkg.com/@formsey/react/-/react-0.2.126.tgz#5614d12775f8d7a2ca06014e692c29d748efac91"
+  integrity sha512-I3n1XXVK+ZPXd/WvZY2bVuR83/pI8T+DJSFuJ+cfa48vKd3TJu1z6kJAHcyMOu26NQFx+b92UVLt3nTSoAhWnQ==
   dependencies:
-    "@formsey/core" "^0.2.112"
-    "@formsey/fields-compound" "^0.2.112"
-    "@formsey/fields-material" "^0.2.112"
-    "@formsey/fields-native" "^0.2.112"
-    "@formsey/fields-native-extended" "^0.2.112"
-    "@formsey/fields-vaadin" "^0.2.112"
     "@types/react" "^16.9.41"
     react "^16.13.1"
 

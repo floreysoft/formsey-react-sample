@@ -3,7 +3,6 @@ import './App.css';
 import { FormseyForm } from '@formsey/react';
 import '@formsey/core';
 import '@formsey/fields-native';
-import { InvalidError } from '@formsey/core/InvalidEvent';
 function App() {
   var formref = useRef(null);
 
@@ -13,17 +12,24 @@ function App() {
     if (detail.name === "zeit") {
       formref.current.setValue("datum", "2020-01-01");
       var e = {
+        "datum": {
+          "validityMessage": "Füllen Sie dieses Feld aus!!!!",
+          custom: true,
+        },
         "XXX": {
-          "validityMessage": "Füllen Sie dieses Feld aus.",
-          "validityState": {
-            "valueMissing": true
-          }
+          "validityMessage": "Füllen Sie dieses Feld aus!!!!",
+          custom: true,
         }
       };
       formref.current.setCustomValidity (e);
 //      alert(formref.current.checkValidity());
-//      formref.current.reportValidity()
+      formref.current.reportValidity()
     }
+  };
+
+  var invalidHandler = function (detail) {
+    console.log("invalid");
+    console.log(detail);
   };
 
   var clickHandler = function (detail) {
@@ -51,7 +57,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <FormseyForm ref={formref} onChange={changeHandler} onClick={clickHandler} onFocus={focusHandler} onBlur={blurHandler} onInput={inputHandler} src={url}></FormseyForm>
+        <FormseyForm ref={formref} onInvalid={invalidHandler} onChange={changeHandler} onClick={clickHandler} onFocus={focusHandler} onBlur={blurHandler} onInput={inputHandler} src={url}></FormseyForm>
       </header>
     </div>
   );
